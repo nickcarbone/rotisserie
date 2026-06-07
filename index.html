@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Rotisserie Chicken Playbook</title>
+
+<style>
+:root{
+    --bg:#f7f4ee;
+    --paper:#ffffff;
+    --ink:#2d2d2d;
+    --accent:#8c5e3c;
+    --accent-light:#c9b49b;
+    --border:#e5ddd2;
+}
+
+body{
+    margin:0;
+    font-family: "Georgia", serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.7;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('https://images.unsplash.com/photo-1518492104633-130d0cc84637?q=80&w=1600');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:100px 40px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 25px;
+}
+
+.intro{
+    background:var(--paper);
+    padding:30px;
+    border-radius:14px;
+    border:1px solid var(--border);
+    margin-bottom:40px;
+}
+
+.recipe{
+    background:var(--paper);
+    border-radius:14px;
+    border:1px solid var(--border);
+    padding:35px;
+    margin-bottom:35px;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+.recipe h2{
+    margin-top:0;
+    color:var(--accent);
+    border-bottom:2px solid var(--accent-light);
+    padding-bottom:10px;
+}
+
+.meta{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    font-size:.95rem;
+}
+
+.tag{
+    background:#f3eee8;
+    padding:6px 12px;
+    border-radius:999px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+ul,ol{
+    padding-left:20px;
+}
+
+.tip{
+    margin-top:20px;
+    background:#f9f5ef;
+    border-left:4px solid var(--accent);
+    padding:15px;
+}
+
+.footer{
+    text-align:center;
+    color:#777;
+    padding:50px;
+}
+
+@media(max-width:800px){
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:2.4rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <h1>The Rotisserie Chicken Playbook</h1>
+    <p>
+        A collection of fast, high-payoff dinners that transform one grocery-store
+        rotisserie chicken into multiple distinct meals.
+    </p>
+</section>
+
+<div class="container">
+
+<div class="intro">
+    <h2>Why Rotisserie Chicken?</h2>
+    <p>
+        The chicken is already cooked. That's the hard part. These recipes focus on
+        turning it into something that feels intentional rather than simply reheated.
+        Most can be completed in 15–30 minutes and rely heavily on pantry staples.
+    </p>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Thai-Inspired Chicken Lettuce Wraps</h2>
+
+<div class="meta">
+<span class="tag">20 Minutes</span>
+<span class="tag">Fresh & Light</span>
+<span class="tag">High Protein</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>2 cups shredded rotisserie chicken</li>
+<li>Butter lettuce</li>
+<li>2 tbsp soy sauce</li>
+<li>2 tbsp hoisin sauce</li>
+<li>Green onions</li>
+<li>Lime wedges</li>
+<li>Chopped peanuts (optional)</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Warm chicken in a skillet.</li>
+<li>Add soy sauce and hoisin.</li>
+<li>Cook until glazed.</li>
+<li>Fill lettuce cups.</li>
+<li>Top with green onions, peanuts, and lime.</li>
+</ol>
+</div>
+</div>
+
+<div class="tip">
+<b>Upgrade:</b> Add shredded carrots, cucumber, or sriracha.
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Rotisserie Chicken Tacos</h2>
+
+<div class="meta">
+<span class="tag">15 Minutes</span>
+<span class="tag">Family Friendly</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Shredded chicken</li>
+<li>Tortillas</li>
+<li>Avocado</li>
+<li>Cilantro</li>
+<li>Cotija cheese</li>
+<li>Lime</li>
+<li>Taco seasoning</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Season and warm chicken.</li>
+<li>Heat tortillas.</li>
+<li>Assemble tacos.</li>
+<li>Finish with avocado, cilantro, cheese, and lime.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>White Chicken Chili</h2>
+
+<div class="meta">
+<span class="tag">25 Minutes</span>
+<span class="tag">Comfort Food</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>2 cups shredded chicken</li>
+<li>2 cans white beans</li>
+<li>4 cups chicken broth</li>
+<li>1 can green chiles</li>
+<li>1 onion (optional)</li>
+<li>Sour cream</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Sauté onion.</li>
+<li>Add broth, beans, chiles, and chicken.</li>
+<li>Simmer 15–20 minutes.</li>
+<li>Stir in sour cream before serving.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Homemade Chicken Alfredo</h2>
+
+<div class="meta">
+<span class="tag">20 Minutes</span>
+<span class="tag">Rich & Comforting</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Fettuccine</li>
+<li>Butter</li>
+<li>Heavy cream</li>
+<li>Parmesan cheese</li>
+<li>Rotisserie chicken</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Cook pasta.</li>
+<li>Heat butter and cream.</li>
+<li>Add Parmesan until smooth.</li>
+<li>Toss with pasta and chicken.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Shortcut Chicken Pot Pie</h2>
+
+<div class="meta">
+<span class="tag">30 Minutes</span>
+<span class="tag">Classic Comfort</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Rotisserie chicken</li>
+<li>Frozen mixed vegetables</li>
+<li>Chicken broth</li>
+<li>Flour</li>
+<li>Puff pastry or pie crust</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Make a simple filling with broth and vegetables.</li>
+<li>Add chicken.</li>
+<li>Top with puff pastry.</li>
+<li>Bake until golden brown.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Mediterranean Chicken Bowls</h2>
+
+<div class="meta">
+<span class="tag">15 Minutes</span>
+<span class="tag">Healthy</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Chicken</li>
+<li>Hummus</li>
+<li>Cucumber</li>
+<li>Cherry tomatoes</li>
+<li>Feta</li>
+<li>Pita bread</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Spread hummus in bowls.</li>
+<li>Add vegetables.</li>
+<li>Top with warm chicken and feta.</li>
+<li>Serve with pita.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Enchilada Skillet</h2>
+
+<div class="meta">
+<span class="tag">20 Minutes</span>
+<span class="tag">One Pan</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Chicken</li>
+<li>Enchilada sauce</li>
+<li>Tortilla chips</li>
+<li>Shredded cheese</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Combine chicken and sauce.</li>
+<li>Stir in crushed chips.</li>
+<li>Cover with cheese.</li>
+<li>Bake or broil until bubbling.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Chicken & Gnocchi Soup</h2>
+
+<div class="meta">
+<span class="tag">25 Minutes</span>
+<span class="tag">Restaurant Style</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Chicken broth</li>
+<li>Potato gnocchi</li>
+<li>Spinach</li>
+<li>Heavy cream</li>
+<li>Rotisserie chicken</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Simmer broth.</li>
+<li>Add gnocchi.</li>
+<li>When gnocchi float, add chicken.</li>
+<li>Finish with spinach and cream.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- PANTRY RECIPES -->
+
+<div class="recipe">
+<h2>Pantry Tortilla Soup</h2>
+
+<div class="meta">
+<span class="tag">20 Minutes</span>
+<span class="tag">Uses Rotel</span>
+<span class="tag">Pantry Hero</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Rotisserie chicken</li>
+<li>1 can Rotel</li>
+<li>1 can black beans</li>
+<li>Chicken broth</li>
+<li>Cumin</li>
+<li>Chili powder</li>
+<li>Tortilla chips</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Add broth, Rotel, beans, and chicken to a pot.</li>
+<li>Season with cumin and chili powder.</li>
+<li>Simmer 20 minutes.</li>
+<li>Serve with tortilla chips and lime.</li>
+</ol>
+</div>
+</div>
+
+<div class="tip">
+<b>Pantry Score:</b> Nearly everything can come straight from the cupboard.
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Tuscan Chicken & White Bean Stew</h2>
+
+<div class="meta">
+<span class="tag">25 Minutes</span>
+<span class="tag">Rustic</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Cannellini beans</li>
+<li>Crushed tomatoes</li>
+<li>Chicken broth</li>
+<li>Chicken</li>
+<li>Oregano</li>
+<li>Basil</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Combine tomatoes, broth, beans, and chicken.</li>
+<li>Season with oregano and basil.</li>
+<li>Simmer 25 minutes.</li>
+<li>Finish with olive oil and Parmesan.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Smoky Chicken & Bean Chili</h2>
+
+<div class="meta">
+<span class="tag">30 Minutes</span>
+<span class="tag">Comfort Food</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Chicken</li>
+<li>Black beans</li>
+<li>Rotel</li>
+<li>Crushed tomatoes</li>
+<li>Chicken broth</li>
+<li>Cumin</li>
+<li>Paprika</li>
+<li>Chili powder</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Add everything to a large pot.</li>
+<li>Bring to a simmer.</li>
+<li>Cook 30 minutes.</li>
+<li>Adjust seasoning and serve.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<!-- RECIPE -->
+
+<div class="recipe">
+<h2>Chicken Shakshuka</h2>
+
+<div class="meta">
+<span class="tag">20 Minutes</span>
+<span class="tag">Unexpected</span>
+</div>
+
+<div class="columns">
+<div>
+<h3>Ingredients</h3>
+<ul>
+<li>Crushed tomatoes</li>
+<li>Rotel</li>
+<li>Shredded chicken</li>
+<li>Eggs</li>
+<li>Bread</li>
+</ul>
+</div>
+
+<div>
+<h3>Directions</h3>
+<ol>
+<li>Simmer tomatoes and Rotel.</li>
+<li>Add chicken.</li>
+<li>Crack eggs into sauce.</li>
+<li>Cover until eggs are set.</li>
+<li>Serve with crusty bread.</li>
+</ol>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+    The Rotisserie Chicken Playbook • One Chicken, Many Dinners
+</div>
+
+</body>
+</html>
